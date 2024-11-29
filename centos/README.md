@@ -3,7 +3,7 @@ Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
 
-## Automatická instalace Zabbix Agent2 na OS Linux Ubuntu
+## Automatická instalace Zabbix Agent2 na OS Centos
 
 - Vagrantfile obsahuje sekci pro aplikaci příkazů pro instalaci monitorovacího
 [Zabbix Agent2](https://www.zabbix.com/).
@@ -11,8 +11,8 @@ Repository pro vyuku na SPOS DK
 ### Instalace Zabbix Agent2
 
 ```console
-wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu22.04_all.deb
-dpkg -i zabbix-release_latest+ubuntu22.04_all.deb
+wget https://repo.zabbix.com/zabbix/6.0/centos/pool/main/z/zabbix-release/zabbix-release_latest+centos22.04_all.deb
+dpkg -i zabbix-release_latest+centos22.04_all.deb
 
 apt-get update
 apt-get install -y zabbix-agent2 zabbix-agent2-plugin-*
